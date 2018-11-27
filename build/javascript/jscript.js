@@ -37,7 +37,7 @@ setInterval(jsIcon,4000);
 // runIt2();
 
 //----------------------------------------
-//Example3: Callback Function
+//Example3: Arrow Function
 
 // let runIt3 = ()=>{
 //     console.log('Function has been invoked');
