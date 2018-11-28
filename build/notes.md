@@ -25,11 +25,11 @@ _To reiterate for consistency in the following lists._
 _Example1:_ Function declaration
 
 ```
-function runIt (){
+function runIt () {
+
     alert('This is an example of a function declaration press f12 for the console');
     console.log('This function was called (invoked)');
    }
-
 
 runIt();
 
@@ -40,7 +40,7 @@ runIt();
 _Example1-1:_ Function declaration with a return statement.
 
 ```
-function runIt (num1,num2){
+function runIt (num1,num2) {
     return num1 * num2;
 }
 
