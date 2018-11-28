@@ -13,4 +13,12 @@ then classified them to the best of my knowledge, while still learning the myste
 
 There will be updates in the future. A personal placeholder for me to return to.
 
+---
+
+#### Updates
+
+File editing and addition of code.
+
+---
+
 Until next time >quote: "The Adventure." (;-}
