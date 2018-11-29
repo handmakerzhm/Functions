@@ -41,10 +41,72 @@ setInterval(jsIcon,4000);
 
 // function runIt (num1,num2,name){
 //    // return num1 * num2 + name;
-//    return name + ' is ' + num1*num2+ ' years old';
+//    return name + ' is ' + num1*num2 + ' years old';
 // }
 
-// console.log (runIt(4,8, "zilka"));
+// console.log (runIt(4,8, "Zilka"));
+
+
+//--------------------------------------
+/*Examples1-3: This examples shows the variables as the global scope.
+Outside the function*/
+
+// let name = "Zilka";
+// let num1 = 4;
+// let num2 = 8;
+
+// function runIt (){
+//     return `${name} is ${num1*num2} years old.`;
+// }
+ 
+//  console.log (runIt());
+
+//------------------------------------------------
+/*Examples1-4: This examples shows the variables as the local scope.
+Inside the function the function*/
+
+
+
+// function runIt (){
+//     let name = "Zilka";
+//     let num1 = 4;
+//     let num2 = 8;
+//     return `${name} is ${num1*num2} years old.`;
+// }
+ 
+//  console.log (runIt());
+
+//----------------------------------------
+/*Example1:2:1: 
+This examples of passing a single parameter and
+argument for the value*/
+
+// let name = function(name){
+//     console.log(`Hello ${name}`);
+// }
+
+// let runIt = function(param1,name){
+//     param1(name);
+// }
+
+// console.log(runIt(name,'Zilka'));
+ 
+//--------------------------------------------------
+
+//Example1:2:2
+
+// let runIt = (function(name,num1,num2){
+    
+//     console.log(`${name} is ${num1*num2} years old.`);
+// });
+
+// let runIt2 = (function (param1,name,num1,num2){
+    
+//     param1(name,num1,num2);
+// });
+
+// console.log(runIt2(runIt,'Zilka',4,8));
+
 
 //----------------------------------------
 //Example2: Function Expression

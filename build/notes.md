@@ -48,3 +48,24 @@ console.log (runIt(4,8));
 // output 32
 ```
 
+---
+
+
+_Example1:2:1_ Example of passing a single parameter and argument to a function for the value.
+
+Two functions are created with the same parameter of name inside the ( ) brackets. The second function has the (param1) parameter that is passed locally to it's own scope. It references the name parameter, which identifies with the outside function by passing the same value of (name). To get the output call the second function, then inside of the () type the name parameter , pass the 'string' or argument to receive the value.
+
+```
+let name = function(name){
+    console.log(`Hello ${name}`);
+}
+
+let runIt = function(param1,name){
+    param1(name);
+}
+
+console.log(runIt(name,'Zilka'));
+
+//Hello Zilka
+```
+
