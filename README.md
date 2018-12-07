@@ -19,6 +19,11 @@ There will be updates in the future. A personal placeholder for me to return to.
 
 File editing and addition of code.
 
+Update: Learning and trying to figure out the
+object constructor plus the (this.) keyword.
+I like the concept and the way it is written, just
+need to figure out when to, how to, use it meaningfully.
+
 ---
 
 Until next time >quote: "The Adventure." (;-}
