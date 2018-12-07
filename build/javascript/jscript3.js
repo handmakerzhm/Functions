@@ -5,7 +5,7 @@
 //     title:'Stage Setting:',
 //     stage:['The System','The Protocol','Security'],
 //     defineStage (passP){
-//         console.log(this.stage,passP)
+//         console.log(this.stage, passP)
 //     }
 // }
 
@@ -13,8 +13,10 @@
 
 //------------------------------------
 //Example1-1: with a forEach loop
-/*Note: The this at the end of function 
-is references outside the function method*/
+/*Note: The (this) at the end of function 
+is references outside the function method.
+Choose to use the template literal is not
+necessary, just experimenting*/
 
 // const scene2 = {
 //     title:'Stage Setting:',
