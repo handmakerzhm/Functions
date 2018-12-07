@@ -1,5 +1,5 @@
 //------------------------------------------
-/*Example1: Constructor function; written as a function expression. It can be written as a function declaration also. Make sure to CAPITALIZE the first let for the constructor name*/
+/*Example1: Constructor function:: written as a function expression. It can be written as a function declaration also. Make sure to CAPITALIZE the first letter for the constructor name*/
 
 let Character = function(name,specialMove,classification){
     this.name = name;
