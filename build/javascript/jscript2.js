@@ -17,7 +17,7 @@ let myCharacter2 = new Character('Man Hand Hand Man',' "quiet movement"','the ho
 let myCharacter3 = new Character('Jist Dexter','the "off the radar"','monopoly');
 
 //Calling the constructor instance and method inside.
-// myCharacter.message();
+myCharacter.message();
 // myCharacter2.message();
 // myCharacter3.message();
 
