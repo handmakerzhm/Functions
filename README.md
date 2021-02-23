@@ -1,7 +1,5 @@
 # Functions
 
-Introductory to functions and basic concepts
+Introductory to functions with basic concepts.
 
-A reference for functions.
 
-Until next time >quote: "The Adventure." (;-}
